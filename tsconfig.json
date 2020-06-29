@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ES5",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "importHelpers": true,
+    "outDir": "dist/esm",
+    "declaration": true,
+    "declarationDir": "dist/types",
+    "declarationMap": true,
+    "strict": true,
+    "jsx": "react",
+    "lib": [
+      "ES2015",
+      "DOM"
+    ]
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
