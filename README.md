@@ -137,12 +137,11 @@ Default: `ul`
  </MetisMenu>
 ```
 
-
+## Example Repo
+[https://github.com/onokumus/metismenu-react-example](https://github.com/onokumus/metismenu-react-example)
 
 ## Demo
-[https://onokumus.com/metismenujs](https://onokumus.com/metismenujs)
-
-Contains a simple HTML file to demonstrate metisMenu plugin.
+[https://onokumus.com/metismenu-react-example/](https://onokumus.com/metismenu-react-example/)
 
 ## About
 
