@@ -1,4 +1,4 @@
-# metismenu-react
+# @metismenu/react
 > react.js component for metismenu
 
 ## Getting started
