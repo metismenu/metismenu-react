@@ -1,6 +1,6 @@
 {
   "name": "@metismenu/react",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "react component for MetisMenu",
   "keywords": [
     "metismenu",
@@ -20,16 +20,14 @@
     "access": "public"
   },
   "dependencies": {
-    "metismenujs": "^1.2.1"
-  },
-  "peerDependencies": {
-    "react": "^17.0.2"
+    "metismenujs": "^1.4.0"
   },
   "devDependencies": {
-    "@rollup/plugin-typescript": "^9.0.1",
-    "@types/react": "^18.0.21",
-    "rollup": "^2.18.1",
-    "typescript": "^4.8.4"
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/react": "^18.0.26",
+    "react": "^18.2.0",
+    "rollup": "^3.10.0",
+    "typescript": "^4.9.4"
   },
   "scripts": {
     "esm": "tsc -p .",
