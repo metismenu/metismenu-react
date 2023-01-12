@@ -1,14 +1,18 @@
-import React, { Component, ElementType } from "react";
+import React, { Component, ElementType, ReactNode } from "react";
 import metismenujs from "metismenujs";
-import { IMMOptions } from "metismenujs/dist/types/interface";
 
-interface IMetisMenuOptions extends IMMOptions {
-  className?: string
+interface MetisMenuProps {
+  toggle?: boolean;
+  triggerElement?: string;
+  parentTrigger?: string;
+  subMenu?: string;
+  className?: string;
+  children?: ReactNode;
 }
 
-class MetisMenu extends Component<IMetisMenuOptions, {}> {
-  protected mm!: metismenujs;
-  protected el!: string | Element;
+class MetisMenu extends Component<MetisMenuProps, {}> {
+  private mm!: metismenujs;
+  private el!: string | Element;
 
   componentDidMount() {
     this.mm = new metismenujs(this.el, this.props);

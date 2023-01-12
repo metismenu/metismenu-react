@@ -1,19 +1,18 @@
 {
   "compilerOptions": {
     "module": "ESNext",
-    "target": "ES5",
-    "moduleResolution": "node",
+    "target": "ES6",
+    "moduleResolution": "NodeNext",
     "allowSyntheticDefaultImports": true,
-    "importHelpers": true,
-    "outDir": "dist/esm",
+    "outDir": "dist",
     "declaration": true,
-    "declarationDir": "dist/types",
     "declarationMap": true,
     "strict": true,
     "jsx": "react",
     "lib": [
-      "ES2015",
-      "DOM"
+      "ESNext",
+      "DOM",
+      "DOM.Iterable",
     ]
   },
   "include": [
